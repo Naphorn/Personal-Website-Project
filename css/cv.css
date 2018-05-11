@@ -1,0 +1,65 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 10px;
+    font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+a {
+    margin: 0px 0px 10px 0px;
+    color: salmon;
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+h1 {
+    margin: 10px auto;
+    padding: 10px 10px;
+    font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    float: left;
+}
+
+.menu {
+    padding: 0px 10px;
+}
+
+main{
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px 0px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid BlueViolet;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px white;
+}
+
+img {
+    max-width: 80%; 
+    border: none;
+    overflow: hidden;
+}
+
+p {
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Gaegu', cursive;
+}
+
+footer {
+    text-align: center;
+    background-color: skyblue;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 16px;
+}
