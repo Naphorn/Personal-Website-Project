@@ -2,67 +2,32 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <!-- <meta name="description" content="Affordable and professional web design"> 
-        <meta name="keywords" content="web design, affordable web design, professional"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WELCOME New Princess Cosmetic</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index.css">
+        <!-- css -->
+        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Comfortaa|Gamja+Flower" rel="stylesheet">
     </head>
     <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>New Princess Cosmetic</h1>
+        <div id="sidebar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+            <!-- Menu -->
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Product</a></li>
-                    <li><a href="cv.html">About</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="cv.html">Portfolio</a></li>
+            </ul>
         </div>
-    </header>
 
-    <section id="showcase">
         <div class="container">
-            <h1>New Princess Cosmetic</h1>
-            <p></p>
+            <span class="text1">NEW PRINCESS COSMETIC</span>
+            <span class="text2">PERSONAL WEBSITE PROJECT</span>
+            <a href="home.html" class="button">Read More</a>
         </div>
-    </section>
-
-    <section id="newsletter">
-        <div class="container">
-            <h1>Subscribe to Our newsletter</h1>
-            <form>
-                <input type="email" placeholder="Enter Email...">
-                <button type="submit" class="button_1">Subscribe</button>
-            </form>
-        </div>
-    </section>
-    
-    <section id="boxes">
-        <div class="container">
-            <div class="box slides">
-                <img src="./image/soap.jpg" style="width:100%">
-                <div class="bottomleft container padding-16 black"></div>
-                <!-- <h3>TOP Brand</h3>
-                <p>รางวัล top brand</p> -->
-            </div>
-            <div class="box slides">
-                <img src="./image/bright.jpg" style="width:100%">
-                <div class="bottomright large container padding-16 black"></div>
-            </div>
-            <div class="box slides">
-                <img src="./image/serum.jpg" style="width:100%">
-                <div class="display-middle large container padding-16 black">
-            </div>
-
-            <button class="buttonleft black" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="buttonright black" onclick="plusDivs(1)">&#10095;</button>
-
-        </div>
-    </section>
-    <script src="./script/index.js"></script>
+        <script src="./script/index.js"></script>
     </body>
 </html>
